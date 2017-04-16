@@ -43,8 +43,3 @@ public:
 		return phead.next;
 	}
 };
-
-int main()
-{
-	LinkNode 
-}
