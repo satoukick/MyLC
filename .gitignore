@@ -1,0 +1,7 @@
+*.filters
+PhoneNum/Debug/vc140.idb
+*.tlog
+PhoneNum/Debug/Solution.obj
+*.log
+PhoneNum/PhoneNum.vcxproj
+*.pdb
