@@ -1,0 +1,10 @@
+*.log
+PhoneNum/Debug/PhoneNum.tlog/CL.command.1.tlog
+*.pdb
+PhoneNum/PhoneNum.vcxproj
+*.tlog
+PhoneNum/Debug/vc140.idb
+*.obj
+PhoneNum/PhoneNum.vcxproj.filters
+*.vcxproj
+*.filters
