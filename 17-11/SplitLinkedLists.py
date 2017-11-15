@@ -23,9 +23,9 @@ class Solution:
         parts = [[]] * k
         head = root
         prev = None
-        for i in range(0,len(parts)):
+        for i in range(len(parts)):
             if prev:
-                prev.next = None
+                prev.next = None # 每次换一个部分，把前一个部分最后一个节点的next指针变为None
             parts[i] = head
             for i in range(number_in_part):
                 prev, head = head, head.next
