@@ -18,10 +18,10 @@ public:
 
 	bool isvalidate(TreeNode* Node, TreeNode* &prev)
 	{
-		if (Node == NULL) return true;
-		if (!isvalidate(Node->left, prev)) return false;
-		if (prev != NULL && prev->val >= Node->val) return false;
+		if (Node == NULL) return true; //root
+		if (!isvalidate(Node->left, prev)) return false;// validate left-subtree
+		if (prev != NULL && prev->val >= Node->val) return false; // judge value
 		prev = Node;
-		return isvalidate(Node->right, prev);
+		return isvalidate(Node->right, prev);// validate right-subtree
 	}
 };
