@@ -33,7 +33,7 @@ func inorderTraversal(root *TreeNode) []int {
 		}
 		cur = stack[len(stack)-1]
 		result = append(result, cur.Val)
-		stack = stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 		cur = cur.Right
 	}
 	return result
